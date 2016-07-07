@@ -1,0 +1,70 @@
+/* this is the library of function for less*/
+// function for magrin
+
+.margin(@top, @right, @bottom, @left){
+	margin-top: @top;
+	margin-right: @right;
+	margin-bottom: @bottom;
+	margin-left: @left;
+}
+/*function for padding*/
+.padding(@top, @right, @bottom, @left){
+	padding-top: @top;
+	padding-right: @right;
+	padding-bottom: @bottom;
+	padding-left: @left;
+}
+/*function  for position*/
+.position(@pos){
+	position: @pos;
+}
+/*function for font size*/
+.fontsize(@size){
+	font-size: @size;
+}
+/*function for  text color*/
+.color(@color){
+	color: @color;
+}
+/*function for background color*/
+.bgcolor(@bgcolor){
+	background-color: @bgcolor;
+}
+/*function for font-family*/
+.fontfamily(@family){
+	font-family: @family;
+}
+/*function for decorate a link*/
+.decorate(@deco){
+	text-decoration: @deco;
+}
+/*function for transform text*/
+.trasform(@trans){
+	text-transform: @trans;
+}
+.font-style(@fontsize, @color, @fontfamily){
+	font-size: @fontsize;
+	color: @color;
+	font-family: @fontfamily;
+}
+/*some function using flex box*/
+/*this function allow use flex box*/
+.flex(){
+		display: -webkit-flex; /* Safari */
+		display: flex;
+}
+/*this function used to make item center*/
+
+.flex-align(){
+	-webkit-align-items: center; /* Safari */
+	align-items:         center;
+}
+/*this function make item in the same row*/
+.flex-row(){
+		-webkit-flex-direction: row; /* Safari */
+		flex-direction:         row;
+}
+.flex-start(){
+	-webkit-align-content: flex-start; /* Safari */
+	align-content:         flex-start;
+}
